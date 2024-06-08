@@ -1,0 +1,106 @@
+/* geral */
+html, body {
+    margin: 0;
+    font: 16px "lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+p {
+    margin-bottom: 20px;
+}
+
+/* caixas */
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-position: center;
+    position: relative;
+}
+.caixa1 {
+    background-image: url(imgs/back_ground.jpg);
+    background-position: cover;
+    background-repeat: repeat;
+}
+.caixa2 {
+    background-image: url(imgs/musica.png);
+}
+.caixa3 {
+    background-image: url(imgs/educacao.png);
+}
+.caixa4 {
+    background-image: url(imgs/tecnologia.png);
+}
+
+/* conteudo */
+.conteudo {
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.conteudo-titulo {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu_nav {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+
+/* media */
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 362.98px) {
+    .contato {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 652.98px) {
+    .youtube {
+        width: auto;
+    }
+
+    .projeto {
+        width: auto;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { }
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
