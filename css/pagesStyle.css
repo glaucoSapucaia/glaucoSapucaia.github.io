@@ -88,6 +88,15 @@ hr{
     text-transform: uppercase;
 }
 
+.caixa4 .conteudo-titulo span.titulo {
+    background-color: black;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
 .menu_nav {
     position: fixed;
     top: 0;
