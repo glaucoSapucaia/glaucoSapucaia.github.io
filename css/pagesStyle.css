@@ -5,17 +5,35 @@ html, body {
     color: #777;
     height: 100%;
 }
-h3 {
-    text-transform: uppercase;
-    color: #111;
-    text-align: center;
-}
+
 p {
     margin-bottom: 20px;
 }
 
+hr{
+    border-color:#171515;
+    box-sizing:border-box;
+    width:100%;  
+  }
+
+/* perfil */
+.perfil {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    margin: 8px 0 0 0;
+}
+      
+.perfil img {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 /* caixas */
-.caixa1, .caixa2, .caixa3, .caixa4 {
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
     height: 100%;
     opacity: 0.8;
     background-repeat: no-repeat;
@@ -30,18 +48,24 @@ p {
     background-repeat: repeat;
 }
 .caixa2 {
-    background-image: url(imgs/musica.png);
+    background-image: url(/imgs/frontEnd.jpeg);
 }
 .caixa3 {
-    background-image: url(imgs/educacao.png);
+    background-image: url(/imgs/iterator_diagram.png);
 }
 .caixa4 {
-    background-image: url(imgs/tecnologia.png);
+    background-image: url(/imgs/data.jpeg);
+}
+.caixa5 {
+    background-image: url(/imgs/musica.jpeg);
+}
+.caixa6 {
+    background-image: url(/imgs/educacao.jpeg);
 }
 
 /* conteudo */
 .conteudo {
-    color: #777;
+    color: black;
     background-color: white;
     text-align: justify;
     padding: 50px 80px;
@@ -56,11 +80,11 @@ p {
 }
 
 .conteudo-titulo span.titulo {
-    background-color: #111;
+    background-color: white;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 5px;
-    color: #fff;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -72,13 +96,6 @@ p {
 }
 
 /* estilização links */
-.curriculum:hover {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    transition: 0.5s;
-}
-
 .nav-item a:hover {
     background-color: black;
     color: white;
